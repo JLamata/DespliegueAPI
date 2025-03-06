@@ -32,8 +32,8 @@ class RouteServiceProvider extends ServiceProvider
      */
     protected function mapApiRoutes()
     {
-        Route::prefix('api')  // Define el prefijo de la API
-             ->middleware('api')  // Aplica el middleware `api` para las rutas de la API
+        Route::prefix('api')
+             ->middleware('api')  
              ->namespace($this->namespace)  // Usa el espacio de nombres para los controladores
              ->group(base_path('routes/api.php'));  // Carga el archivo `routes/api.php`
     }
@@ -45,8 +45,8 @@ class RouteServiceProvider extends ServiceProvider
      */
     protected function mapWebRoutes()
     {
-        Route::middleware('web')  // Aplica el middleware `web` para las rutas web
-             ->namespace($this->namespace)  // Usa el espacio de nombres para los controladores
-             ->group(base_path('routes/web.php'));  // Carga el archivo `routes/web.php`
+        Route::middleware('web')  
+             ->namespace($this->namespace)  
+             ->group(base_path('routes/web.php'));  
     }
 }
