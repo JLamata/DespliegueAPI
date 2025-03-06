@@ -2,7 +2,32 @@
 
 return [
 
+
+        // Otros valores de configuración...
     
+        /* 'providers' => [
+    
+            //Laravel Framework Service Providers...
+            Illuminate\Broadcasting\BroadcastServiceProvider::class,
+            Illuminate\Bus\BusServiceProvider::class,          
+            Illuminate\Filesystem\FilesystemServiceProvider::class,
+            Illuminate\Foundation\Providers\ArtisanServiceProvider::class,
+            Illuminate\Notifications\NotificationServiceProvider::class,
+            Illuminate\Pagination\PaginationServiceProvider::class,
+            Illuminate\Pipeline\PipelineServiceProvider::class,
+            Illuminate\Queue\QueueServiceProvider::class,
+            Illuminate\Redis\RedisServiceProvider::class,
+            Illuminate\Session\SessionServiceProvider::class,
+            Illuminate\Translation\TranslationServiceProvider::class,
+            Illuminate\Validation\ValidationServiceProvider::class,
+            Illuminate\View\ViewServiceProvider::class,
+
+            //Application Service Providers...
+            App\Providers\RouteServiceProvider::class,  // Aquí se incluye el RouteServiceProvider
+    
+        ], */
+    
+   
     /*
     |--------------------------------------------------------------------------
     | Application Name
