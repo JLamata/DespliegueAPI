@@ -17,4 +17,5 @@ class plantasModel extends Model
         'cantidad',
         'imagenes'
     ];
+    public $timestamps = false; 
 }
